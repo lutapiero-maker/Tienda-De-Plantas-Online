@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { ShoppingCart } from 'lucide-react';
 import { addItem } from '../store/CartSlice';
-import { plants, categories } from '../Data/plants';
+import { plants, categories } from '../Data/Plants';
 
 const ProductsPage = ({ onNavigate }) => {
   const dispatch = useDispatch();
